@@ -1,0 +1,37 @@
+.App {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* height : 100vh; */
+    background-color: rgb(82, 82, 82);
+}
+
+.cards-container{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center;
+    gap : 1rem;
+}
+
+.first-dumbell{
+    width : 10%;
+    margin-right: 20%;
+    margin-left : 15%
+}
+
+.second-dumbell{
+    width : 10%;
+    margin-right: 20%;
+}
+
+.dumbell-images{
+    margin: 20px auto;
+}
+
+
+.header-title{
+    font-family:'Courier New', Courier, monospace;
+    font-size:xx-large;
+    color: white;
+}
